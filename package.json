@@ -1,17 +1,16 @@
 {
-  "name": "weather",
+  "name": "react-otp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://bharath.fr/reactotp",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "bootstrap": "^4.6.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "weather-icons": "github:erikflowers/weather-icons",
-    "web-vitals": "^1.1.1"
+    "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
+    "otp-client": "^1.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-id-generator": "^0.1.6",
+    "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,21 +19,12 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
